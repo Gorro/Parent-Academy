@@ -1,0 +1,76 @@
+body{
+    font-family: 'Dosis', sans-serif !important;
+    margin:0 !important;
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        font-size:18px;
+    }
+    h1{
+        font-size:24px !important;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+}
+#header{
+    background-image: url("../images/foto_inicio.png");
+    background-position: center top;
+    background-size: 100% 100vh;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+#menu > li > a{
+    color:white !important;
+    font-size: 20px;
+}
+#tachado{
+    background-image: url("../images/tachado_rojo.png");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.title_24{
+    font-size: 5vw;
+}
+.color_white{
+    color: white;
+}
+#trata{
+
+}
+#hacemos{
+
+}
+#beneficios{
+    background-image: url("../images/pan-xiaozhen-423533-unsplash.jpg");
+    background-position: 20vh top;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+.vh-100{
+    height: 100vh;
+}
+.absolute{
+    position: absolute;
+}
+.zindex-1{
+    z-index: 1;
+}
+.zindex-2{
+    z-index: 2;
+}
+.zindex-n{
+    z-index: -1;
+}
+h1{
+    font-size: 4vw;
+}
+h3{
+    font-size: 2vw;
+}
+.navbar-collapse{
+    margin-top: -28px;
+}
